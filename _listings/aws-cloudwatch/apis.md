@@ -33,7 +33,7 @@ apis:
   tags: Alarms
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/alarms/master/_listings/aws-cloudwatch/action-deletealarms-.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/alarms/master/_listings/aws-cloudwatch/action-describealarms-.md
 x-common:
 - type: x-articles
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100
