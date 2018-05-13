@@ -34,7 +34,40 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/action-describealarms-.md
+- name: Amazon CloudWatch API Delete Alarms
+  description: Deletes the specified alarms.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
+  humanURL: https://aws.amazon.com/cloudwatch/
+  baseURL: http:://{host}//
+  tags: Alarms
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/action-deletealarms-.md
 x-common:
+- type: x-articles
+  url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100
+- type: x-blog
+  url: https://aws.amazon.com/cloudwatch/developer-resources/#BlogPosts
+- type: x-change-log
+  url: http://aws.amazon.com/releasenotes/Amazon%20EC2?_encoding=UTF8&jiveRedirect=1
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/AmazonCloudWatch/latest/cli/
+- type: x-developer
+  url: https://aws.amazon.com/cloudwatch/developer-resources/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/cloudwatch/faqs/
+- type: x-forum
+  url: http://developer.amazonwebservices.com/connect/forum.jspa?forumID=30
+- type: x-pricing
+  url: https://aws.amazon.com/cloudwatch/pricing/
+- type: x-sdk
+  url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=85
+- type: x-tools
+  url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=88
+- type: x-website
+  url: https://aws.amazon.com/cloudwatch/
 - type: x-articles
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100
 - type: x-blog
