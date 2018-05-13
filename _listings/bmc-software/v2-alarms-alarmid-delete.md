@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: BMC Software Merged API
+  title: BMC Software API Delete Alarm
   version: 1.0.0
+  description: Deletes an alarm
 schemes:
 - http
 produces:
