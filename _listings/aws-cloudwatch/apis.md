@@ -19,9 +19,9 @@ tags:
 - Logging
 - Analysis
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/alarms/master/_listings/aws-cloudwatch/apis.yaml
+created: "2018-05-12"
+modified: "2018-05-12"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Amazon CloudWatch API
@@ -33,7 +33,7 @@ apis:
   tags: Alarms
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/alarms/master/_listings/aws-cloudwatch/action-describealarms-.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/action-deletealarms-.md
 x-common:
 - type: x-articles
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100
