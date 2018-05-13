@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudWatch API
+  title: Amazon CloudWatch API Describe Alarms
   version: 1.0.0
+  description: Retrieves the specified alarms.
 schemes:
 - http
 produces:
