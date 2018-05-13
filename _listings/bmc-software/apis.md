@@ -26,15 +26,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2-alarms-alarmid-delete.md
-- name: BMC Software API Update Alarm
-  description: Updates an alarm
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bmc-truesight.png
-  humanURL: http://www.bmc.com
-  baseURL: https://{host}//
-  tags: Alarms
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2-alarms-alarmid-put.md
 x-common:
 - type: x-blog
   url: http://www.bmc.com/blogs
