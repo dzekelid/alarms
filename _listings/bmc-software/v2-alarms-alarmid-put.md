@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: BMC Software Merged API
+  title: BMC Software API Update Alarm
   version: 1.0.0
+  description: Updates an alarm
 schemes:
 - http
 produces:
