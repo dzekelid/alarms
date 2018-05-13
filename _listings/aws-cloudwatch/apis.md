@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/action-describealarms-.md
-- name: Amazon CloudWatch API Delete Alarms
-  description: Deletes the specified alarms.
+- name: Amazon CloudWatch API Describe Alarms
+  description: Retrieves the specified alarms.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
   humanURL: https://aws.amazon.com/cloudwatch/
   baseURL: http:://{host}//
   tags: Alarms
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/action-deletealarms-.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/action-describealarms-.md
 x-common:
 - type: x-articles
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100
