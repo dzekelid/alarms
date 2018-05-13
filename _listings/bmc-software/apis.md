@@ -14,18 +14,7 @@ created: "2018-05-12"
 modified: "2018-05-12"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/apis.yaml
 specificationVersion: "0.14"
-apis:
-- name: BMC Software API
-  description: TrueSight Pulse responds to fluid IT demands with SaaS-based monitoring
-    for real-time visibility into web-scale application metrics helping DevOps teams
-    detect and diagnose problems fast
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bmc-truesight.png
-  humanURL: ""
-  baseURL: https:///
-  tags: Alarms
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1-alarm-alarmid-delete.md
+apis: []
 x-common:
 - type: x-blog
   url: http://www.bmc.com/blogs
