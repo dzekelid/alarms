@@ -37,6 +37,16 @@ x-common:
   url: https://twitter.com/bmcsoftware
 - type: x-website
   url: http://www.bmc.com
+- type: x-blog
+  url: http://www.bmc.com/blogs
+- type: x-blog-rss
+  url: http://feeds.feedburner.com/BmcBlogs
+- type: x-github
+  url: https://github.com/bmcsoftware
+- type: x-twitter
+  url: https://twitter.com/bmcsoftware
+- type: x-website
+  url: http://www.bmc.com
 include: []
 maintainers:
 - FN: Kin Lane
