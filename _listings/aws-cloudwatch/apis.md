@@ -14,31 +14,775 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Alarms
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Amazon CloudWatch API Delete Alarms
+- name: Amazon CloudWatch API
   x-api-slug: amazon-cloudwatch-api
-  description: Deletes the specified alarms.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
   humanURL: https://aws.amazon.com/cloudwatch/
-  baseURL: ://///?Action=DeleteAlarms
-  tags: Alarms
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
-- name: Amazon CloudWatch API Describe Alarms
+- name: Amazon CloudWatch API
   x-api-slug: amazon-cloudwatch-api
-  description: Retrieves the specified alarms.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
   humanURL: https://aws.amazon.com/cloudwatch/
-  baseURL: ://///?Action=DescribeAlarms
-  tags: Alarms
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+- name: Amazon CloudWatch API
+  x-api-slug: amazon-cloudwatch-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
+  humanURL: https://aws.amazon.com/cloudwatch/
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+- name: Amazon CloudWatch API
+  x-api-slug: amazon-cloudwatch-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
+  humanURL: https://aws.amazon.com/cloudwatch/
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+- name: Amazon CloudWatch API
+  x-api-slug: amazon-cloudwatch-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
+  humanURL: https://aws.amazon.com/cloudwatch/
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+- name: Amazon CloudWatch API
+  x-api-slug: amazon-cloudwatch-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
+  humanURL: https://aws.amazon.com/cloudwatch/
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+- name: Amazon CloudWatch API
+  x-api-slug: amazon-cloudwatch-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
+  humanURL: https://aws.amazon.com/cloudwatch/
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+- name: Amazon CloudWatch API
+  x-api-slug: amazon-cloudwatch-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
+  humanURL: https://aws.amazon.com/cloudwatch/
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+- name: Amazon CloudWatch API
+  x-api-slug: amazon-cloudwatch-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
+  humanURL: https://aws.amazon.com/cloudwatch/
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+- name: Amazon CloudWatch API
+  x-api-slug: amazon-cloudwatch-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
+  humanURL: https://aws.amazon.com/cloudwatch/
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+- name: Amazon CloudWatch API
+  x-api-slug: amazon-cloudwatch-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
+  humanURL: https://aws.amazon.com/cloudwatch/
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+- name: Amazon CloudWatch API
+  x-api-slug: amazon-cloudwatch-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
+  humanURL: https://aws.amazon.com/cloudwatch/
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+- name: Amazon CloudWatch API
+  x-api-slug: amazon-cloudwatch-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
+  humanURL: https://aws.amazon.com/cloudwatch/
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+- name: Amazon CloudWatch API
+  x-api-slug: amazon-cloudwatch-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
+  humanURL: https://aws.amazon.com/cloudwatch/
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+- name: Amazon CloudWatch API
+  x-api-slug: amazon-cloudwatch-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
+  humanURL: https://aws.amazon.com/cloudwatch/
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionsetalarmstate--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionsetalarmstate--openapi.md
+- name: Amazon CloudWatch API
+  x-api-slug: amazon-cloudwatch-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
+  humanURL: https://aws.amazon.com/cloudwatch/
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionsetalarmstate--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionsetalarmstate--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+- name: Amazon CloudWatch API
+  x-api-slug: amazon-cloudwatch-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
+  humanURL: https://aws.amazon.com/cloudwatch/
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionsetalarmstate--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionsetalarmstate--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+- name: Amazon CloudWatch API
+  x-api-slug: amazon-cloudwatch-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
+  humanURL: https://aws.amazon.com/cloudwatch/
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionsetalarmstate--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionsetalarmstate--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+- name: Amazon CloudWatch API
+  x-api-slug: amazon-cloudwatch-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
+  humanURL: https://aws.amazon.com/cloudwatch/
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionsetalarmstate--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionsetalarmstate--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+- name: Amazon CloudWatch API
+  x-api-slug: amazon-cloudwatch-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
+  humanURL: https://aws.amazon.com/cloudwatch/
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondeletealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarms--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionsetalarmstate--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionsetalarmstate--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionenablealarmactions--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmhistory--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actionputmetricalarm--openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/actiondescribealarmsformetric--openapi.md
 - name: Amazon CloudWatch API
   x-api-slug: amazon-cloudwatch-api
   description: Amazon CloudWatch is a monitoring service for AWS cloud resources and
@@ -59,6 +803,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/aws-cloudwatch/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.cloudsearch.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.cloudwatch.stack.network
 - type: x-articles
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100
 - type: x-blog

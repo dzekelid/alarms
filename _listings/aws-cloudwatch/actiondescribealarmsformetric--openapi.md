@@ -3,9 +3,9 @@ swagger: "2.0"
 x-collection-name: AWS CloudWatch
 x-complete: 0
 info:
-  title: Amazon CloudWatch API Describe Alarms
+  title: Amazon CloudWatch API Describe Alarms For Metric
   version: 1.0.0
-  description: Retrieves the specified alarms.
+  description: Retrieves the alarms for the specified metric.
 schemes:
 - http
 produces:
@@ -259,6 +259,36 @@ paths:
           description: OK
       tags:
       - Alarm Metrics
+  /?Action=SetAlarmState:
+    "":
+      summary: Set Alarm State
+      description: Temporarily sets the state of an alarm for testing purposes.
+      operationId: setalarmstate
+      x-api-path-slug: actionsetalarmstate-
+      parameters:
+      - in: query
+        name: AlarmName
+        description: The name for the alarm
+        type: string
+      - in: query
+        name: StateReason
+        description: The reason that this alarm is set to this specific state, in
+          text format
+        type: string
+      - in: query
+        name: StateReasonData
+        description: The reason that this alarm is set to this specific state, in
+          JSON format
+        type: string
+      - in: query
+        name: StateValue
+        description: The value of the state
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Aler State
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

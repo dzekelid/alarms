@@ -7,133 +7,336 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-so
 x-kinRank: "8"
 x-alexaRank: "27308"
 tags: Alarms
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/apis.md
 specificationVersion: "0.14"
 apis:
-- name: BMC Software API Get All Alarms
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: Get all of the Alarms
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///v1/alarms
-  tags: Alarms
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-openapi.md
-- name: BMC Software API Get Alarm by Id
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: Retrieves a single alarm
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///v1/alarm/:alarmId
-  tags: Alarms
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-get-openapi.md
-- name: BMC Software API Get Alarms by Name
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: Retrieves alarms by name
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///v1/alarms/search
-  tags: Alarms
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmssearch-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmssearch-get-openapi.md
-- name: BMC Software API Create Alarm
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: Create an Alarm
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///v1/alarms
-  tags: Alarms
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmssearch-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmssearch-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-post-openapi.md
-- name: BMC Software API Update Alarm
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: Update an Alarm
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///v1/alarm/:alarmId
-  tags: Alarms
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmssearch-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmssearch-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-put-openapi.md
-- name: BMC Software API Delete Alarm
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: Deletes an alarm
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///v1/alarm/:alarmId
-  tags: Alarms
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmssearch-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmssearch-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-put-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-delete-openapi.md
-- name: BMC Software API Create Alarm
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: Create an Alarm
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///v2/alarms
-  tags: Alarms
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmssearch-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmssearch-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarms-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarms-post-openapi.md
-- name: BMC Software API Update Alarm
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: Updates an alarm
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///v2/alarms/:alarmId
-  tags: Alarms
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmssearch-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmssearch-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarms-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarms-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarmsalarmid-put-openapi.md
-- name: BMC Software API Get All Alarms
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: Get all of the Alarms
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///v2/alarms
-  tags: Alarms
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmssearch-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmssearch-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarms-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarms-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarmsalarmid-put-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarms-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarms-get-openapi.md
-- name: BMC Software API Get Alarm by Id
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: Retrieves a single alarm
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///v2/alarms/:alarmId
-  tags: Alarms
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmssearch-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmssearch-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarms-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarms-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarmsalarmid-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarms-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarms-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarmsalarmid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarmsalarmid-get-openapi.md
-- name: BMC Software API Delete Alarm
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: Deletes an alarm
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///v2/alarms/:alarmId
-  tags: Alarms
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmssearch-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmssearch-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarms-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarms-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarmsalarmid-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarms-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarms-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarmsalarmid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarmsalarmid-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarmsalarmid-delete-openapi.md
 - name: BMC Software API
@@ -148,6 +351,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://blogger.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://bmc.software.stack.network
 - type: x-blog
   url: http://www.bmc.com/blogs
 - type: x-blog-rss
