@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-so
 x-kinRank: "8"
 x-alexaRank: "27308"
 tags: Alarms
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/apis.md
 specificationVersion: "0.14"
 apis:
@@ -64,6 +64,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarms-post-openapi.md
+- name: BMC Software Merged API - Update Alarm
+  x-api-slug: v1alarmalarmid-put
+  description: Update an Alarm
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
+  humanURL: http://www.bmc.com
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-put-openapi.md
+- name: BMC Software Merged API - Delete Alarm
+  x-api-slug: v1alarmalarmid-delete
+  description: Deletes an alarm
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
+  humanURL: http://www.bmc.com
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v1alarmalarmid-delete-openapi.md
 - name: BMC Software Merged API - Create Alarm
   x-api-slug: v2alarms-post
   description: Create an Alarm
@@ -77,6 +99,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarms-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarms-post-openapi.md
+- name: BMC Software Merged API - Update Alarm
+  x-api-slug: v2alarmsalarmid-put
+  description: Updates an alarm
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
+  humanURL: http://www.bmc.com
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarmsalarmid-put-openapi.md
 - name: BMC Software Merged API - Get All Alarms
   x-api-slug: v2alarms-get
   description: Get all of the Alarms
@@ -103,6 +136,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarmsalarmid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarmsalarmid-get-openapi.md
+- name: BMC Software Merged API - Delete Alarm
+  x-api-slug: v2alarmsalarmid-delete
+  description: Deletes an alarm
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
+  humanURL: http://www.bmc.com
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/alarms/master/_listings/bmc-software/v2alarmsalarmid-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://blogger.api.gallery.streamdata.io
